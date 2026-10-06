@@ -1,0 +1,32 @@
+{
+  "name": "swiftbar-duolingo-status",
+  "version": "1.0.0",
+  "description": "SwiftBar menu bar item showing whether today's Duolingo streak is done",
+  "private": true,
+  "author": "Craig Maslowski",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigmaslowski/swiftbar-duolingo-status.git"
+  },
+  "homepage": "https://github.com/craigmaslowski/swiftbar-duolingo-status#readme",
+  "bugs": {
+    "url": "https://github.com/craigmaslowski/swiftbar-duolingo-status/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "install-plugin": "node scripts/install-plugin.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
